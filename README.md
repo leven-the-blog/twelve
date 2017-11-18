@@ -13,8 +13,8 @@ leven theme quadrupleslap/twelve
 Twelve adds the following options to `Leven.toml`:
 
 ```toml
-# The languages whose syntax you want highlighted.
-prism = ["javascript", "python", ...]
+# The languages whose syntaxes you want highlighted.
+prism = ["javascript", "python", "rust", "elixir"]
 
 # Add a [[links]] block for each of your navigation links.
 [[links]]

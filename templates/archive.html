@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>{ config.name }</title>
+    { include includes }
+</head>
+<body>
+    { include header }
+    <div class="container my-3">
+    <ul>
+        { for post in posts }
+            <li>
+                <a href="/{ post.slug }.html">{ post.title }</a>
+                <small><time>{ post.date }</time></small>
+            </li>
+        { end }
+    </ul>
+    </div>
+    { include footer }
+</body>
+</html>
