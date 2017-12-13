@@ -3,3 +3,12 @@
     margin-bottom: 1rem;
     color: #9A9A9A;
 }
+
+.post {
+    max-width: 900px;
+}
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
