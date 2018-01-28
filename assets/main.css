@@ -12,3 +12,13 @@
     margin-top: 0.8em;
     margin-bottom: 0.5em;
 }
+
+.footnote-definition {
+    display: flex;
+}
+
+.footnote-definition-label {
+    margin-right: 0.5rem;
+    line-height: 100%;
+    top: 0;
+}
